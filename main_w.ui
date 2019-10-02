@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="actionSave"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>快速入口</string>
+    </property>
+    <addaction name="actionIFS"/>
+    <addaction name="actionCRM"/>
+    <addaction name="actionPAS"/>
+    <addaction name="actionESS"/>
+    <addaction name="actionOMS"/>
+    <addaction name="actionIMC"/>
+   </widget>
+   <widget class="QMenu" name="menuOffice_tools">
+    <property name="title">
+     <string>工具集</string>
+    </property>
+    <addaction name="actionExcel"/>
+    <addaction name="actionword"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menuOffice_tools"/>
+   <addaction name="menu_3"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionIFS">
+   <property name="text">
+    <string>IFS</string>
+   </property>
+  </action>
+  <action name="actionCRM">
+   <property name="text">
+    <string>CRM</string>
+   </property>
+  </action>
+  <action name="actionPAS">
+   <property name="text">
+    <string>PAS</string>
+   </property>
+  </action>
+  <action name="actionESS">
+   <property name="text">
+    <string>ESS</string>
+   </property>
+  </action>
+  <action name="actionOMS">
+   <property name="text">
+    <string>OMS</string>
+   </property>
+  </action>
+  <action name="actionIMC">
+   <property name="text">
+    <string>IMC</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionExcel">
+   <property name="text">
+    <string>Excel拆分</string>
+   </property>
+  </action>
+  <action name="actionword">
+   <property name="text">
+    <string>word</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
